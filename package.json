@@ -1,0 +1,20 @@
+{
+  "name": "balloon-tech",
+  "version": "1.0.0",
+  "description": "## Description Balloon Tech is a website that allows users to make blog posts about the web development world. Users are able to leave comments, which stimulates conversation and comradery among individuals in the industry.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonypotts/balloon-tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonypotts/balloon-tech/issues"
+  },
+  "homepage": "https://github.com/anthonypotts/balloon-tech#readme"
+}
