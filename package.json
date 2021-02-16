@@ -4,7 +4,8 @@
   "description": "## Description Balloon Tech is a website that allows users to make blog posts about the web development world. Users are able to leave comments, which stimulates conversation and comradery among individuals in the industry.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/anthonypotts/balloon-tech/issues"
   },
-  "homepage": "https://github.com/anthonypotts/balloon-tech#readme"
+  "homepage": "https://github.com/anthonypotts/balloon-tech#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  }
 }
